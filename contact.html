@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Lorem Ipsum</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title1"> Contact - Lorem Ipsum</h1>
+            <nav class="headerLinks"> 
+                <a href="index.html"><b>Headline</b></a>
+                <a href="contact.html"><b>Contact</b></a>
+            </nav>
+        </header>
+        <main>
+            <p>
+                <form action="thanks.html" method="post">
+                    <fieldset>
+                        <legend>Personalia</legend>
+                        <label>Name
+                            <input type="text" name="name" required>
+                        </label>
+                        <label>Email
+                            <input type="email" name="email" required>
+                        </label>
+                        <label> Country
+                            <select name="country">
+                                <option value="">(select one)</option>
+                                <option value="1">US</option>
+                                <option value="2">UK</option>
+                                <option value="3">AUS</option>
+                                <option value="4">CAN</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Select</legend>
+                            <p class="label"> What department do you want to contact?</p>
+                        <label> News
+                            <input type="checkbox">
+                        </label>
+                        <label> Sports
+                            <input type="checkbox">
+                        </label>
+                            <p class="label">Do you want a replay?</p>
+                        <label> Yes
+                            <input type="radio" name="replay">
+                        </label>
+                        <label> No
+                            <input type="radio" name="replay">
+                        </label>
+                    </fieldset>
+                    <div class="send-button-container">
+                        <input type="submit">
+                    </div>
+                </form>
+            </p>
+        </main>
+        <footer>
+            <img src="img/sun.webp" alt="A small icon of the sun">
+            London 19 &#176;
+        </footer>
+    </div>
+</body>
+</html>
